@@ -1,0 +1,19 @@
+:root {
+  --main-color: rgb(51, 255, 0);
+  --main-margin: 10px;
+}
+
+body {
+  background-color: #464646;
+}
+div {
+  width: 100px;
+  height: 100px;
+  margin: var(--main-margin);
+}
+div.red {
+  background-color: var(--main-color);
+}
+div.green {
+  background-color: var(--main-color);
+}
